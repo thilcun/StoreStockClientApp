@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ConfereEstoqueApp</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Config. Servidor</string>
+
+
+    <string name="pref_servidor_ip">IP Servidor</string>
+    <string name="pref_servidor_ip_value">10.10.1.75</string>
+
+    <string name="pref_servidor_porta">Porta Servidor</string>
+    <integer name="pref_servidor_porta_value">8080</integer>
+
+
+    <string name="pref_header_conferencia">Conferência</string>
+
+    <string name="pref_usuario_id">Código do Usuário</string>
+    <integer name="pref_usuario_id_value">1</integer>
+
+    <string name="pref_endereco">Endereço</string>
+    <integer name="pref_endereco_value">100</integer>
+
+</resources>

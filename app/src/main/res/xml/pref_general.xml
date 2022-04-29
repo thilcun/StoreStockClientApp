@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:key="servidor_ip"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_servidor_ip" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@integer/pref_servidor_porta_value"
+        android:inputType="numberDecimal"
+        android:key="servidor_porta"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_servidor_porta" />
+
+</PreferenceScreen>

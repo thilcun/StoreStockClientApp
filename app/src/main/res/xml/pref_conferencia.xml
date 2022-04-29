@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="number"
+        android:key="usuario_id"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:defaultValue="@integer/pref_usuario_id_value"
+        android:title="@string/pref_usuario_id" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@integer/pref_endereco_value"
+        android:inputType="number"
+        android:key="endereco"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_endereco" />
+
+</PreferenceScreen>
